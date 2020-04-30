@@ -1,6 +1,6 @@
 # Description
 
-This script allows you to recognize faces on photo based on previously provided images. It uses the Face Recognition library that is built using the Dlib. You need to create a folder with one image file of each person you want to recognize. And a second folder with the faces you want to identify.
+This script allows you to recognize faces on photo based on previously provided images. It uses the Face Recognition library that is built using Dlib. You need to create a folder with one image file of each person you want to recognize. And a second folder with the faces you want to identify.
 
 # Modules to Install
 
