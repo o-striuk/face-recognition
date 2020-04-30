@@ -54,7 +54,7 @@ def classify_sample(im):
         name = "unknown"
 
         # Given a list of face encodings, compare them to a known face encoding,
-        # and get a Euclidean distance for each comparison face. The distance
+        # and get an Euclidean distance for each comparison face. The distance
         # tells you how similar the faces are.
         face_distances = fr.face_distance(faces_encoded, face_encoding)
         best_match_index = np.argmin(face_distances)
